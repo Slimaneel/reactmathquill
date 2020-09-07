@@ -8,7 +8,7 @@ function App(props) {
   const [latex, setLatex] = useState("");
 
   const injectMathFunction = (latexString) => {
-    setLatex(latex => latex.trim()+latexString)
+    setLatex(latex => latex+latexString)
   };
   return (
     <div>
